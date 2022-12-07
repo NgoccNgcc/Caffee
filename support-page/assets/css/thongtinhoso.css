@@ -1,0 +1,85 @@
+body{
+    font-family: 'Roboto';
+}
+
+.thong_tin_ho_so{
+    margin: 20px 0;
+}
+
+.menu_thong_tin_ho_so{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tths{
+    margin: 0 40px;
+}
+
+.tths a{
+    color: #000;
+    font-weight: 600;
+}
+
+.tths:hover a{
+    color: red !important;
+    text-decoration: underline !important;
+}
+
+.avatar_clover{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.the_in input{
+    border-radius: 5px;
+    padding: 5px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.the_in{
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.nhap_thong_tin_ca_nhan{
+    width: 70%;
+}
+
+.nttcn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.txt2{
+    font-weight: 500;
+}
+
+.the_button_ket_thuc{
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.the_button_ket_thuc input{
+    background-color: #FAA620;
+    color: #fff;
+    border: none;
+    box-shadow: 2px 5px 2px 2px #ccc;
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ip_chung{
+    display: flex;
+}
