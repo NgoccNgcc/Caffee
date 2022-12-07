@@ -1,0 +1,206 @@
+body{
+    font-family: 'Roboto';
+}
+
+.tat_ca_hang{
+    margin: 30px 0 50px 0;
+}
+
+.menu_thong_tin_ho_so{
+    display: flex;
+    justify-content: center;
+    margin-top:30px !important;
+}
+
+.tths{
+    margin: 0 40px;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: 400;
+}
+.ma_don_hang{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* font-family: 'Inter';*/
+}
+
+.tths a{
+    color: #000;
+}
+
+.ten_san_pham_spxh{
+     /* font-family: 'Inter';*/
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 16px;
+    margin-top:10px;
+
+}
+.ten_san_pham_spxh p{
+    margin-top:16px !important;
+     /* font-family: 'Inter';*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.thongbaogh{
+    /* font-family: 'Inter';*/
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+
+}
+
+.tths:hover a{
+    color: red !important;
+    text-decoration: underline !important;
+}
+
+#hang_hoa_1{
+   margin-top:50px !important;
+}
+.hang_hoa_1{
+    margin-bottom: 60px!important;
+ }
+
+.trang_thai_hang{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #B8B8B8;
+
+}
+
+.thong_bao_giao_hang_va_trang_thai_hien_nay{
+    display: flex;
+}
+
+.thong_bao_giao_hang{
+    display: flex;
+    margin-right: 50px;
+}
+
+.trang_thai_hien_nay{
+    /*font-family: Inter;*/
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.icon img{
+    margin-top: -5px;
+    margin-right: 5px;
+}
+
+.san_pham_xuat_hien{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.anh_san_pham{
+    margin-right: 10px;
+}
+
+.anh_san_pham_va_ten{
+    display: flex;
+}
+
+.gia_ban_dau{
+    text-decoration: line-through;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.gia_ban_sau{
+font-size: 18px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.gia_tien_ca_2{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tong_so_tien_mua{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: -50px;
+}
+
+.tong_so_tien_mua b{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.tong_so_tien_mua p{
+    color: red; 
+    font-size: 20px; 
+    font-weight: 600;
+}
+
+.chuc_nang_duoi{
+    display: flex;
+}
+
+.danh_gia_duoi{
+    padding: 5px 20px;
+    background-color: red;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    height: 43.16923522949219px;
+}
+
+.danh_gia_duoi a{
+    color: #fff;
+    vertical-align: middle;
+    line-height:30px;
+}
+
+.button_chuc_nang{
+    display: flex;
+    justify-content: right;
+}
+
+.danh_gia_duoi:hover a{
+    color: red;
+}
+.danh_gia_duoi:hover{
+    background-color: white !important;
+    border: 1px solid  rgb(156, 156, 156);
+}
+.danh_gia_duoi:hover{
+    background-color: rgb(156, 156, 156);
+}

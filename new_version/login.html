@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./assets/css/auth.css">
+
+    <title>Đăng nhập để tham gia</title>
+</head>
+<body>
+    <div id="app">
+        <div class="row authMain">
+            <div class="col-md-5 offset-md-7 h-100">
+                <div class="d-flex align-items-center h-100">
+                    <div class="w-100 ps-72px pe-72px">
+                        <h3 class="authTitle text-center">Đăng nhập để tham gia</h3>
+                        <form class="authForm" action="" autocomplete="off" method="POST">
+                            <div class="mb-3">
+                                <label for="inputEmail" class="form-label c-lable">Nhập số điện thoại/ Email</label>
+                                <input type="text" class="form-control c-input" id="inputEmail">
+                            </div>
+                            <div class="mb-3">
+                                <label for=inputPassword" class="form-label c-lable">Nhập mật khẩu</label>
+                                <input type="password" class="form-control c-input" id="inputPassword">
+                            </div>
+                            <div class="mb-3 text-end">
+                                <a href="forgot-password.html" class="authLink text-decoration-line-underline">Quên mật khẩu ?</a>
+                            </div>
+                            <button type="submit" class="btn authSubmitBtn">Đăng nhập</button>
+                        </form>
+                        <div class="mt-4 mb-4 text-center">
+                            Bạn chưa có tài khoản? <a class="authLink" href="register.html">Đăng kí</a>
+                        </div>
+                        <p class="line">Đăng nhập nhanh với</p>
+                        <div class="authSocial mt-4 text-center">
+                            <a href="#" class="socialLink me-4">
+                                <img src="./assets/image/quên mk/Rectangle 152.png"/> Facebook
+                            </a>
+                            <a href="#" class="socialLink me-4">
+                                <img src="./assets/image/quên mk/Rectangle 152-1.png"/> Google
+                            </a>
+                            <a href="#" class="socialLink">
+                                <img src="./assets/image/quên mk/Rectangle 152-2.png"> Apple
+                            </a>
+                        </div>
+                        <div class="mt-4 text-center">
+                            <a href="#" class="authLink text-black">Bỏ qua</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="row authFooter">
+            <div class="col-md-5 offset-md-7 h-100 text-center">
+                <a class="d-inline authFooter__item" href="#">HelpCenter</a>
+                <a class="d-inline authFooter__item" href="#">Term of Service</a>
+                <a class="d-inline authFooter__item" href="#">Privacy Policy</a>
+                <p class="d-inline authFooter__item">@2015CoffeePlaceDesign</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

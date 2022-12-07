@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&family=Gulzar&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#app {
+	font-family: "Roboto", sans-serif;
+	background-image: url("../image/image30.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.authMain {
+	height: calc(100% - 30px)!important;
+}
+
+.ps-72px {
+	padding-left: 72px;
+}
+
+.pe-72px {
+	padding-right: 72px;
+}
+
+.text-decoration-line-underline {
+	text-decoration: underline;
+}
+
+.authTitle {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 47px;
+	color: #271016;
+	margin-bottom: 35px;
+}
+
+.authForm .c-lable {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #271016;
+}
+
+.authForm .c-input {
+	background: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	height: 45px;
+}
+
+.authLink {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #f50000;
+}
+
+.authLink:hover {
+	color: #f50000;
+}
+
+.authSubmitBtn {
+	background: #faa620;
+	border: 1px solid rgba(184, 184, 184, 0.3);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	height: 52px;
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.line {
+	position: relative;
+	text-align: center;
+}
+
+.line::before {
+	position: absolute;
+	content: "";
+	width: 38%;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	border-bottom: 1px solid black;
+}
+
+.line::after {
+	position: absolute;
+	content: "";
+	width: 38%;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	border-bottom: 1px solid black;
+}
+
+.socialLink {
+	width: 165px;
+    height: 51px;
+    background: #FAFAFA;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.authFooter {
+	height: 30px;
+	background: #271016;
+}
+
+.authFooter__item {
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 15px;
+	color: #FFFFFF;
+	margin: 0 25px;
+}

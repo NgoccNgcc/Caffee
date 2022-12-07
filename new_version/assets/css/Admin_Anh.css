@@ -1,0 +1,97 @@
+.admin {
+    height: 600px;
+}
+.menu_ad {
+    background: red;
+    color: #fff;
+    height: 100%;
+    width: 220px;
+}
+li {
+    list-style-type: none;
+    font-size: 16px;
+    padding: 10px 0px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover { color: #fff;}
+.user {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 82px;
+}
+.view, .clover { 
+    display: flex;
+    align-items: center;
+}
+.icon { padding: 0px 5px;}
+/* CSS */
+.button-13 {
+background-color: #fff;
+border: 1px solid #d5d9d9;
+border-radius: 8px;
+box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+box-sizing: border-box;
+color: #0f1111;
+cursor: pointer;
+display: inline-block;
+font-family: "Amazon Ember",sans-serif;
+font-size: 13px;
+line-height: 29px;
+padding: 0 10px 0 11px;
+position: relative;
+text-align: center;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: middle;
+width: 100px;
+}
+
+.button-13:hover {
+background-color: #f7fafa;
+}
+
+.button-13:focus {
+border-color: #008296;
+box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+outline: 0;
+}
+.top_1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 82px;
+}
+.icon_img {
+    font-size: 26px;
+}
+.img_sp {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+}
+.img_sp img { 
+    width: 100%;
+}
+.san_pham { padding: 0px 0px;}
+.bg_admin {
+    background-image: url(./img/bg_admin.jpg);
+}
+.border {
+    width: 100%;
+    background: red;
+    height: 10px;
+
+}
+
+.add_image {
+    font-size: 16px;
+    margin-top: 20px;
+    
+}

@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Trang chủ</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.0-web/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__wrap-logo">
+                <div class="container header__with-logo">
+                    <div class="header__logo">
+                        <img src="./assets/image/logo.png" alt="" class="header__logo-link">
+                    </div>
+                    <div class="header__with-input">
+                        <input type="text" class="header__input" placeholder="Tìm kiếm sản phẩm theo tên">
+                        <i class="fa-solid fa-magnifying-glass header__input-icon"></i>
+                    </div>
+                    <div class="header__with-info">
+                        <p class="header__info-title">Email</p>
+                        <div class="header__info-desc">
+                            <p class="header__info-desc-name">CoffeePlace@gmail.com</p>
+                            <p class="header__info-desc-name">TuyenDungCP@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="header__with-info">
+                        <p class="header__info-title">Hotline</p>
+                        <div class="header__info-desc">
+                            <p class="header__info-desc-name">0352.315.391</p>
+                            <p class="header__info-desc-name">0969.021.154</p>
+                        </div>
+                    </div>
+                    <div class="header__with-info">
+                        <p class="header__info-title">Địa chỉ</p>
+                        <div class="header__info-desc">
+                            <p class="header__info-desc-name">Số 10, Nguyễn Văn Cừ,</p>
+                            <p class="header__info-desc-name">Long Biên, Hà Nội</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__wrap-nav">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container">
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav header__nav-list">
+                                <li class="header__nav-item">
+                                    <a href="index.html" class="header__nav-item-link ps-0">Trang chủ</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="coffee_place.html" class="header__nav-item-link">Về Coffee Place</a>
+                                </li>
+                                <li class="header__nav-item dropdown">
+                                    <a 
+                                        href="#"
+                                        class="dropdown-toggle header__nav-item-link"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Menu
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Coffee</a></li>
+                                        <li><a class="dropdown-item" href="#">Bánh</a></li>
+                                    </ul>
+                                </li>
+                                <li class="header__nav-item dropdown">
+                                    <a 
+                                        href="#"
+                                        class="dropdown-toggle header__nav-item-link"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Sự kiện/ tin tức</a></li>
+                                        <li><a class="dropdown-item" href="#">Kiến thức</a></li>
+                                    </ul>
+                                </li>
+                                <!--
+                                    <li class="header__nav-item">
+                                    <a href="tuyendung.html" class="header__nav-item-link">Tuyển dụng</a>
+                                </li>
+                                -->
+                            </ul>
+                        </div>
+                        <div class="d-none d-md-block">
+                            <ul class="navbar-nav header__nav-list">
+                                <li class="header__navbar-item">
+                                    <a href="" class="header__navbar-item-link">
+                                        <i class="fa-solid fa-bell header__navbar-item-icon"></i>
+                                        <p class="header__navbar-item-name">Thông báo</p>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="GioHang_DatHang.html" class="header__navbar-item-link">
+                                        <i class="fa-solid fa-basket-shopping header__navbar-item-icon"></i>
+                                        <p class="header__navbar-item-name">Giỏ hàng</p>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item pe-0">
+                                    <a href="" class="header__navbar-item-link">
+                                        <i class="fa-solid fa-right-to-bracket header__navbar-item-icon"></i>
+                                        <p class="header__navbar-item-name">Đăng nhập</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="header__banner">
+                <div class="swiper slide__header__banner">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./assets/image/banner_1.jpg" alt="" class="header__thumg-link">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/image/banner_2.jpg" alt="" class="header__thumg-link">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/image/banner_3.jpg" alt="" class="header__thumg-link">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__wrap-navbar">
+                <div class="container">
+                    <ul class="body__navbar-list">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <li class="body__navbar-item">
+                                    <img src="./assets/image/coffer.png" alt="" class="body__navbar-item-icon">
+                                    <div class="body__navbar-item-desc">
+                                        <p class="body__navbar-item-desc-name">
+                                            Chất lượng coffee
+                                        </p>
+                                        <p class="body__navbar-item-desc-name">
+                                            Đạt chuẩn toàn cầu
+                                        </p>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="col-lg-3">
+                                <li class="body__navbar-item">
+                                    <img src="./assets/image/safe.png" alt="" class="body__navbar-item-icon">
+                                    <div class="body__navbar-item-desc">
+                                        <p class="body__navbar-item-desc-name">
+                                            Thanh toán online tiện lợi
+                                        </p>
+                                        <p class="body__navbar-item-desc-name">
+                                            An toàn tuyệt đối
+                                        </p>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="col-lg-3">
+                                <li class="body__navbar-item">
+                                    <img src="./assets/image/ship.png" alt="" class="body__navbar-item-icon">
+                                    <div class="body__navbar-item-desc">
+                                        <p class="body__navbar-item-desc-name">
+                                            Giao hàng an toàn
+                                        </p>
+                                        <p class="body__navbar-item-desc-name">
+                                            Nhanh chóng
+                                        </p>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="col-lg-3">
+                                <li class="body__navbar-item">
+                                    <img src="./assets/image/sale.png" alt="" class="body__navbar-item-icon">
+                                    <div class="body__navbar-item-desc">
+                                        <p class="body__navbar-item-desc-name">
+                                            Mua càng nhiều 
+                                        </p>
+                                        <p class="body__navbar-item-desc-name">
+                                            Khuyễn mãi càng khủng
+                                        </p>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="container__categories">
+                    <div class="row">
+                        <div class="container__block">
+                            <p class="container__block-box"></p>
+                            <p class="container__block-title">Sản phẩm tiêu biểu</p>
+                       </div>
+                       
+                        <div class="col-lg-3">
+                            <img src="./assets/image/cat_1.png" alt="" class="category__thumg">
+                            <p class="category__title">White Coffee</p>
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./assets/image/cat_2.png" alt="" class="category__thumg">
+                            <p class="category__title">Black Coffee</p>
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./assets/image/cat_3.png" alt="" class="category__thumg">
+                            <p class="category__title">Mocasino</p>
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./assets/image/cat_4.png" alt="" class="category__thumg">
+                            <p class="category__title">Capucino Cincau</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__products bg_primary">
+                    <div class="container__with-title">
+                        <div class="container__block">
+                            <p class="container__block-box"></p>
+                            <p class="container__block-title">Sản phẩm của chúng tôi</p>
+                       </div>
+                        
+                    </div>
+                    <div class="container__products-cate">
+                        <a href="coffee_place.html" class="container__products-cate-item">
+                            <p class="container__products-cate-title">Mới nhất</p>
+                        </a>
+                        <a href="" class="container__products-cate-item">
+                            <p class="container__products-cate-title">Ưu đãi</p>
+                        </a>
+                        <a href="" class="container__products-cate-item">
+                            <p class="container__products-cate-title">Bán chạy</p>
+                        </a>
+                        <a href="" class="container__products-cate-item">
+                            <p class="container__products-cate-title">Coffee</p>
+                        </a>
+                        <a href="" class="container__products-cate-item">
+                            <p class="container__products-cate-title">Bánh</p>
+                        </a>
+                    </div>
+                    <div class="products__item">
+                        <div class="swiper slide__products__item">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product__item-thumb">
+                                        <img src="./assets/image/product_1.png" alt="" class="product__item-thumb-link">
+                                        <p class="product__item-name">Cafe Capucino</p>
+                                        <div class="product__item-price">
+                                            <p class="product__item-current-price">40.000 vnd</p>
+                                            <div class="product__item-rating">
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            <p class="product__item-price-sale">26.000 vnd</p>
+                                            <button class="product__item-btn">Mua ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__item-thumb">
+                                        <img src="./assets/image/product_1.png" alt="" class="product__item-thumb-link">
+                                        <p class="product__item-name">Cafe Capucino</p>
+                                        <div class="product__item-price">
+                                            <p class="product__item-current-price">40.000 vnd</p>
+                                            <div class="product__item-rating">
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            <p class="product__item-price-sale">26.000 vnd</p>
+                                            <button class="product__item-btn">Mua ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__item-thumb">
+                                        <img src="./assets/image/product_1.png" alt="" class="product__item-thumb-link">
+                                        <p class="product__item-name">Cafe Capucino</p>
+                                        <div class="product__item-price">
+                                            <p class="product__item-current-price">40.000 vnd</p>
+                                            <div class="product__item-rating">
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            <p class="product__item-price-sale">26.000 vnd</p>
+                                            <button class="product__item-btn">Mua ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__item-thumb">
+                                        <img src="./assets/image/product_1.png" alt="" class="product__item-thumb-link">
+                                        <p class="product__item-name">Cafe Capucino</p>
+                                        <div class="product__item-price">
+                                            <p class="product__item-current-price">40.000 vnd</p>
+                                            <div class="product__item-rating">
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            <p class="product__item-price-sale">26.000 vnd</p>
+                                            <button class="product__item-btn">Mua ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__item-thumb">
+                                        <img src="./assets/image/product_1.png" alt="" class="product__item-thumb-link">
+                                        <p class="product__item-name">Cafe Capucino</p>
+                                        <div class="product__item-price">
+                                            <p class="product__item-current-price">40.000 vnd</p>
+                                            <div class="product__item-rating">
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            <p class="product__item-price-sale">26.000 vnd</p>
+                                            <button class="product__item-btn">Mua ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper slide__products__item_2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product__item-thumb">
+                                        <img src="./assets/image/product_1.png" alt="" class="product__item-thumb-link">
+                                        <p class="product__item-name">Cafe Capucino</p>
+                                        <div class="product__item-price">
+                                            <p class="product__item-current-price">40.000 vnd</p>
+                                            <div class="product__item-rating">
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            <p class="product__item-price-sale">26.000 vnd</p>
+                                            <button class="product__item-btn">Mua ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__item-thumb">
+                                        <img src="./assets/image/product_1.png" alt="" class="product__item-thumb-link">
+                                        <p class="product__item-name">Cafe Capucino</p>
+                                        <div class="product__item-price">
+                                            <p class="product__item-current-price">40.000 vnd</p>
+                                            <div class="product__item-rating">
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            <p class="product__item-price-sale">26.000 vnd</p>
+                                            <button class="product__item-btn">Mua ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__item-thumb">
+                                        <img src="./assets/image/product_1.png" alt="" class="product__item-thumb-link">
+                                        <p class="product__item-name">Cafe Capucino</p>
+                                        <div class="product__item-price">
+                                            <p class="product__item-current-price">40.000 vnd</p>
+                                            <div class="product__item-rating">
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            <p class="product__item-price-sale">26.000 vnd</p>
+                                            <button class="product__item-btn">Mua ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__item-thumb">
+                                        <img src="./assets/image/product_1.png" alt="" class="product__item-thumb-link">
+                                        <p class="product__item-name">Cafe Capucino</p>
+                                        <div class="product__item-price">
+                                            <p class="product__item-current-price">40.000 vnd</p>
+                                            <div class="product__item-rating">
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            <p class="product__item-price-sale">26.000 vnd</p>
+                                            <button class="product__item-btn">Mua ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__item-thumb">
+                                        <img src="./assets/image/product_1.png" alt="" class="product__item-thumb-link">
+                                        <p class="product__item-name">Cafe Capucino</p>
+                                        <div class="product__item-price">
+                                            <p class="product__item-current-price">40.000 vnd</p>
+                                            <div class="product__item-rating">
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon rating-icon--active"></i>
+                                                <i class="fa-solid fa-star rating-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            <p class="product__item-price-sale">26.000 vnd</p>
+                                            <button class="product__item-btn">Mua ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__about-us bg_primary">
+                    <div class="container__about-us-thumb">
+                        <div class="about__us-item">
+                            <div class="about__us-item-thumb">
+                                <img src="./assets/image/about_1.png" alt="" class="about__us-item-thumb-link">
+                            </div>
+                            <div class="about__us-item-thumb">
+                                <img src="./assets/image/about_2.png" alt="" class="about__us-item-thumb-link">
+                            </div>
+                        </div>
+                        <div class="about__us-item">
+                            <div class="about__us-item-thumb">
+                                <img src="./assets/image/about_3.png" alt="" class="about__us-item-thumb-link">
+                            </div>
+                            <div class="about__us-item-thumb">
+                                <img src="./assets/image/about_4.png" alt="" class="about__us-item-thumb-link">
+                            </div>
+                        </div>
+                        <div class="about__us-item">
+                            <div class="about__us-item-thumb">
+                                <img src="./assets/image/about_5.png" alt="" class="about__us-item-thumb-link">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__form">
+                    <div class="form__banner">
+                        <img src="./assets/image/form_banner.png" alt="" class="form__banner-thumb">
+                    </div>
+                    <div class="form__wrap-input">
+                        <p class="form__input-title">Đăng ký để nhận thông báo mới nhất</p>
+                        <p class="form__input-title-desc">
+                            Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.
+                        </p>
+                        <input type="text" class="form__input" placeholder="Nhập mail">
+                        <button class="form__input-btn">Gửi ngay</button>
+                    </div>
+                </div>
+                <div class="container__review bg_primary">
+                    <div class="container__block">
+                        <p class="container__block-box"></p>
+                        <p class="container__block-title">Phản hồi của khách hàng</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="review__item bg_browns">
+                            <div class="review__item-thumb">
+                                <img src="./assets/image/act_1.png" alt="" class="review__item-thumb-link">
+                            </div>
+                            <p class="review__item-name">Nguyễn Ngọc Linh</p>
+                            <p class="review__item-content">
+                                Được người bạn mua tặng 1 ly cofee mua tại website Coffee Place và kèm theo những lời khen ngợi, tôi uống thử và cảm nhận rất Good, tôi đã đặt mua thường xuyên để phục vụ nhu cầu khách hàng uống cà phê tại quán của gia đình 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="review__item bg_yellow">
+                            <div class="review__item-thumb">
+                                <img src="./assets/image/act_1.png" alt="" class="review__item-thumb-link">
+                            </div>
+                            <p class="review__item-name">Nguyễn Ngọc Linh</p>
+                            <p class="review__item-content">
+                                Được người bạn mua tặng 1 ly cofee mua tại website Coffee Place và kèm theo những lời khen ngợi, tôi uống thử và cảm nhận rất Good, tôi đã đặt mua thường xuyên để phục vụ nhu cầu khách hàng uống cà phê tại quán của gia đình 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="review__item bg_browns">
+                            <div class="review__item-thumb">
+                                <img src="./assets/image/act_1.png" alt="" class="review__item-thumb-link">
+                            </div>
+                            <p class="review__item-name">Nguyễn Ngọc Linh</p>
+                            <p class="review__item-content">
+                                Được người bạn mua tặng 1 ly cofee mua tại website Coffee Place và kèm theo những lời khen ngợi, tôi uống thử và cảm nhận rất Good, tôi đã đặt mua thường xuyên để phục vụ nhu cầu khách hàng uống cà phê tại quán của gia đình 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="review__item bg_yellow">
+                            <div class="review__item-thumb">
+                                <img src="./assets/image/act_1.png" alt="" class="review__item-thumb-link">
+                            </div>
+                            <p class="review__item-name">Nguyễn Ngọc Linh</p>
+                            <p class="review__item-content">
+                                Được người bạn mua tặng 1 ly cofee mua tại website Coffee Place và kèm theo những lời khen ngợi, tôi uống thử và cảm nhận rất Good, tôi đã đặt mua thường xuyên để phục vụ nhu cầu khách hàng uống cà phê tại quán của gia đình 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container__banner-sub">
+                    <div class="container">
+                        <img src="./assets/image/banner_sub.png" alt="" class="banner__sub-thumb">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container__products bg_primary">
+                <div class="container">
+                    <div class="row">
+                        <div class="container__block">
+                            <p class="container__block-box"></p>
+                            <p class="container__block-title">Bài viết tiêu biểu</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="product__item-thumb">
+                                <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                <p class="product__item-name">Cafe Capucino</p>
+                                <p class="date_author">
+                                    5/27/15 . Angel
+                                </p>
+                                <p class="product__item-desc">
+                                    Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                    đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                    <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="product__item-thumb">
+                                <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                <p class="product__item-name">Cafe Capucino</p>
+                                <p class="date_author">
+                                    5/27/15 . Angel
+                                </p>
+                                <p class="product__item-desc">
+                                    Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                    đồ uống độc đáo. Cofee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                    <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="product__item-thumb">
+                                <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                <p class="product__item-name">Cafe Capucino</p>
+                                <p class="date_author">
+                                    5/27/15 . Angel
+                                </p>
+                                <p class="product__item-desc">
+                                    Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                    đồ uống độc đáo. Cofeee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                    <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="product__item-thumb">
+                                <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                <p class="product__item-name">Cafe Capucino</p>
+                                <p class="date_author">
+                                    5/27/15 . Angel
+                                </p>
+                                <p class="product__item-desc">
+                                    Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                    đồ uống độc đáo. Coffee PLace giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                    <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="product__item-thumb">
+                                <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                <p class="product__item-name">Cafe Capucino</p>
+                                <p class="date_author">
+                                    5/27/15 . Angel
+                                </p>
+                                <p class="product__item-desc">
+                                    Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                    đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                    <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="product__item-thumb">
+                                <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                <p class="product__item-name">Cafe Capucino</p>
+                                <p class="date_author">
+                                    5/27/15 . Angel
+                                </p>
+                                <p class="product__item-desc">
+                                    Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                    đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                    <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
