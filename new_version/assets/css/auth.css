@@ -10,6 +10,10 @@ a {
 	cursor: pointer;
 }
 
+.text-red {
+	color: #f50000;
+}
+
 #app {
 	font-family: "Roboto", sans-serif;
 	background-image: url("../image/image30.svg");
@@ -125,6 +129,26 @@ a {
 	font-weight: 300;
 	font-size: 13px;
 	line-height: 15px;
-	color: #FFFFFF;
+	color: #FFFFFF!important;
 	margin: 0 25px;
+}
+
+.changePassword__groupBtn .btn {
+	max-width: 200px;
+}
+
+.authCancelBtn {
+	background: #fff;
+	border: 1px solid rgba(184, 184, 184, 0.3);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	height: 52px;
+	width: 100%;
+	color: #271016;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.authCancelBtn:hover {
+	background: #d9d9d9;
 }
