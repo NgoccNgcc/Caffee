@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+body {
+    position: relative;
+    background: #fff;
+    font-size: 14px;
+}
+
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.col{
+    padding: 0 !important;
+}
+
+.navbar{
+    padding: 0 !important;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+:hover a{
+    color: #000;
+}
+
+/* -------------------------Địa chỉ đặt hàng--------------------------- */
+.dia_chi_dat_hang_hot{
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    margin-top: 60px !important;
+}
+
+.ten_chinh_dcdh{
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icon_dcdh{
+    margin-right: 5px;
+}
+
+.thong_tin_dia_chi{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.thog_tin_dc{
+    display: flex;
+    margin-top: 10px;
+}
+
+.name_ncc{
+    margin-right: 10px;
+    padding-right: 50px;
+    border-right: 1px solid #ccc;
+}
+
+.chuc_nang_thay_doi{
+    margin-top: 10px;
+}
+/* -------------------------------------------------------------------- */
+
+/* ----------------------Sản phẩm và giỏ hàng-------------------------- */
+.san_pham_va_gio_hang{
+    margin: 15px 0;
+}
+
+.o_ten_de_tai{
+    display: flex;
+}
+
+.anh_tt{
+    margin-right: 5px;
+}
+
+.ten_tt{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.o_click_chon{
+    margin-right: 10px;
+}
+
+.name_sp_chon{
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    
+
+}
+
+.size{
+    margin-top: 5px;
+    
+}
+
+.gia_sp{
+    display: flex;
+    margin-top: 5px;
+}
+
+.o_chon_so_luong{
+    display: flex;
+    margin-top:5px;
+}
+
+.o_bt{
+    padding: 0 10px;
+    margin-right: 5px;
+    background-color: #fff;
+}
+
+.hang_gia_sp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.o_ghi_chu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ten_o_ghi_chu:hover>a{
+    color: red;
+}
+
+@media screen and (min-width:992px) {
+    .sp_sl_1{
+        padding-left: 0px !important;
+    }
+
+    .sp_sl_2{
+        padding-right: 0px !important;
+    }
+}
+
+.the_chua_chap_trong{
+    height: 100%;
+}
+.o_ghi_yeu_cau{
+    display: flex;
+}
+
+.ten_o_ghi_chu{
+    margin-right: 5px;
+}
+
+.hang_gia_sp{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.gia_mau{
+    color: red;
+}
+
+.phuong_thuc_thanh_toan{
+    margin-top: 10px;
+}
+
+.the_hoat_dong_nhan_hang{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.the_hoat_dong_nhan_hang a{
+    padding: 5px 30px;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.a_size_s{
+ text-decoration: underline !important;
+}
+/* -------------------------------------------------------------------- */
+.form__banner{
+    margin-top: 50px ;
+    margin-bottom: 50px;
+}
+
+
+
+.name_theo_ten{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.thong_tin_dia_chi{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+}
+.sdt_ncc{
+    margin-top: 5PX;
+}
+.fa-solid{
+    margin-right: 5PX !important;
+}
+.ten_tt{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.anh_tt{
+    margin-bottom: 10pxfo;
+}
+
+.text_gsp{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}

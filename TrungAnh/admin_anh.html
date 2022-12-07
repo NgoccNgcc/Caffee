@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Ảnh</title>
+
+        <link rel="stylesheet" href="./css_js_admin_bai_dang/css/bootstrap.min.css">  
+        <link rel="stylesheet" href="./css_js_admin_bai_dang/css/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="./css_js_admin_bai_dang/css/admin_bai_dang.css">
+        <link rel="stylesheet" href="./assets/css/Admin_Anh.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="./css_js_admin_bai_dang/js/jquery.slim.min.js"></script>
+        <script src="./css_js_admin_bai_dang/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./css_js_admin_bai_dang/css/responsive.css">
+
+        <style type="text/css">
+          #goTop { 
+            bottom: 50px; 
+            cursor: pointer; 
+            display: none; 
+            border-radius: 50%;
+            box-shadow: 0px 2px 2px 1px rgb(208, 208, 208);
+            font-size: 10px;
+            position: fixed; 
+            right: 10px;
+            z-index: 1000;
+            padding: 10px;
+            background-color: aquamarine;
+          }
+
+          .container{
+            max-width: 1600px !important;
+          }
+        </style>
+
+</head>
+<body>
+    <div class="container" style=" border: #ccc solid 1px; box-shadow: 2px 2px 2px 2px #ccc; height: 100%;">
+        <div class="hang_tren">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-lg-2" style="background-color: #271016;">
+                        <div class="menu_bar">
+                            <nav class="navbar">
+                                <a class="navbar-brand" href="#">
+                                    <img src="./assets/image/logo.png" alt="" width="100px">
+                                </a>
+                                <!--
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+                                -->
+                            </nav>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-6 col-lg-7">
+                            <div class="the_rong">
+                                
+                            </div>
+                    </div>
+    
+                    <div href="" class="col-md-4 col-lg-3">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link">
+                                        <div class=" d-flex">
+                                            <div class="icon_vw">
+                                                <img src="./assets/image/admin/clarity_world-solid.png" alt="" width="25px">
+                                            </div>
+                    
+                                            <div class="name_vw" style="margin-top: 5px;">
+                                                View Web
+                                            </div>
+                                        </div>
+                                        
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link d-flex" style="color: #000;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <div class="icon_vw">
+                                            <img src="./assets/image/admin/Ellipse 14.png" alt="" width="25px">
+                                        </div>
+                    
+                                        <div class="name_vw" style="margin-top: 5px;">
+                                            Clover8719
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Đăng nhập</a>
+                                      <a class="dropdown-item" href="#">Đăng xuất</a>
+                                    </div>
+                                  </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="hang_duoi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-lg-2" style="background-color: #271016;">
+                        <div class="the_chuc_nang">
+                            <div class="cn_1_the">
+                                <a href="#">Admin</a>
+                            </div>
+        
+                            <div class="cn_1_the">
+                                <a href="#">Thống kê</a>
+                            </div>
+        
+                            <div class="cn_1_the">
+                                <a href="#">Nhân viên</a>
+                            </div>
+        
+                            <div class="cn_1_the">
+                                <a href="#">Đơn hàng</a>
+                            </div>
+        
+                            <div class="cn_1_the">
+                                <a href="#">Sản phẩm</a>
+                            </div>
+        
+                            <div class="cn_1_the">
+                                <a href="#" >Bài đăng</a>
+                            </div>
+
+                            <div class="cn_1_the">
+                                <a href="#" style="text-decoration: underline;">Thư mục ảnh </a>
+                            </div>
+
+                            <div class="cn_1_the">
+                                <a href="#">Chương trình của tôi</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-10 col-lg-10">
+                        <div class="hang_tim_kiem d-flex">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-2 col-lg-2">
+                                        <div class="o_nhan_vien ">
+                                            <a href="#" style="color: #000;"><b>Hình ảnh</b></a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-7 col-lg-7">
+                                        <div class="hang_tim_kiem_o" >
+                                            <input type="text"  placeholder="Nhập vào đây">
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-3 col-lg-3">
+                                        <div class="o_the_a_db">
+                                            <div class="chu_tim_kiem">
+                                                <a href="#"><b>Tìm kiếm</b></a>
+                                            </div>
+                    
+                                            <div class="chu_tim_kiem">
+                                                <a href="#"><b>Đặt lại</b></a>
+                                            </div>
+                                            
+                                           <!-- <div class="add_image">
+                                                <input  type="file" name="file" id="file" />
+                                            </div>-->
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="add_image">
+                                        <img src="./assets/image/admin/Add Image.png" alt="" class="img_picture"> Upload ảnh
+                                        <input  type="file" name="file" id="file"  />
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+
+                        
+                        <div class="row">
+                            <div class="col-lg-10">
+                                <div class="san_pham">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <a href=" ">
+                                                <div class="img_sp">
+                                                    <img src="./assets/image/admin/Rectangle 256-1.png" alt="" class="img_picture">
+                                                    cafe.png
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href=" ">
+                                                <div class="img_sp">
+                                                    <img src="./assets/image/admin/Rectangle 256-2.png" alt="">
+                                                    cafe.png
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href=" ">
+                                                <div class="img_sp">
+                                                    <img src="./assets/image/admin/Rectangle 256-3.png" alt="">
+                                                    cafe.png
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href=" ">
+                                                <div class="img_sp">
+                                                    <img src="./assets/image/admin/Rectangle 256-4.png" alt="">
+                                                    cafe.png
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href=" ">
+                                                <div class="img_sp">
+                                                    <img src="./assets/image/admin/Rectangle 256-5.png" alt="">
+                                                    cafe.png
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href=" ">
+                                                <div class="img_sp">
+                                                    <img src="./assets/image/admin/Rectangle 256-6.png" alt="">
+                                                    cafe.png
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href=" ">
+                                                <div class="img_sp">
+                                                    <img src="./assets/image/admin/Rectangle 256-7.png" alt="">
+                                                    cafe.png
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href=" ">
+                                                <div class="img_sp">
+                                                    <img src="./assets/image/admin/Rectangle 256.png" alt="">
+                                                    cafe.png
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <ul>
+                                    <li>Sorting</li>
+                                    <form>
+                                        <li><input name="gender" type="radio" value="Nam" /> by fie name</li>
+                                        <li><input name="gender" type="radio" value="Nữ" /> by date</li>
+                                        <li><input name="gender" type="radio" value="Khác" /> by size</li>
+                                        <li><input name="gender" type="radio" value="Khác" /> by type</li>
+                                    </form>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer_mau">
+            <div class="container">
+                <div class="row">
+                    <div class="hai_huoc">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

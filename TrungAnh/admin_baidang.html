@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Bài đăng</title>
+
+        <link rel="stylesheet" href="./css_js_admin_bai_dang/css/bootstrap.min.css">  
+        <link rel="stylesheet" href="./css_js_admin_bai_dang/css/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="./css_js_admin_bai_dang/css/admin_bai_dang.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="./css_js_admin_bai_dang/js/jquery.slim.min.js"></script>
+        <script src="./css_js_admin_bai_dang/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./css_js_admin_bai_dang/css/responsive.css">
+
+        <style type="text/css">
+          #goTop { 
+            bottom: 50px; 
+            cursor: pointer; 
+            display: none; 
+            border-radius: 50%;
+            box-shadow: 0px 2px 2px 1px rgb(208, 208, 208);
+            font-size: 10px;
+            position: fixed; 
+            right: 10px;
+            z-index: 1000;
+            padding: 10px;
+            background-color: aquamarine;
+          }
+
+          .container{
+            max-width: 1600px !important;
+          }
+        </style>
+
+</head>
+<body>
+    <div class="container" style=" border: #ccc solid 1px; box-shadow: 2px 2px 2px 2px #ccc; height: 100%;">
+        <div class="hang_tren">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-lg-2" style="background-color: #271016;">
+                        <div class="menu_bar">
+                            <nav class="navbar">
+                                <a class="navbar-brand" href="#">
+                                    <img src="./assets/image/logo.png" alt="" width="100px">
+                                </a>
+                                <!--
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+                                -->
+                            </nav>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-6 col-lg-7">
+                            <div class="the_rong">
+                                
+                            </div>
+                    </div>
+    
+                    <div href="" class="col-md-4 col-lg-3">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link">
+                                        <div class=" d-flex">
+                                            <div class="icon_vw">
+                                                <img src="./assets/image/admin/clarity_world-solid.png" alt="" width="25px">
+                                            </div>
+                    
+                                            <div class="name_vw" style="margin-top: 5px;">
+                                                View Web
+                                            </div>
+                                        </div>
+                                        
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link d-flex" style="color: #000;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <div class="icon_vw">
+                                            <img src="./assets/image/admin/Ellipse 14.png" alt="" width="25px">
+                                        </div>
+                    
+                                        <div class="name_vw" style="margin-top: 5px;">
+                                            Clover8719
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Đăng nhập</a>
+                                      <a class="dropdown-item" href="#">Đăng xuất</a>
+                                    </div>
+                                  </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="hang_duoi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-lg-2" style="background-color: #271016;">
+                        <div class="the_chuc_nang">
+                            <div class="cn_1_the">
+                                <a href="#">Admin</a>
+                            </div>
+        
+                            <div class="cn_1_the">
+                                <a href="#">Thống kê</a>
+                            </div>
+        
+                            <div class="cn_1_the">
+                                <a href="#">Nhân viên</a>
+                            </div>
+        
+                            <div class="cn_1_the">
+                                <a href="#">Đơn hàng</a>
+                            </div>
+        
+                            <div class="cn_1_the">
+                                <a href="#">Sản phẩm</a>
+                            </div>
+        
+                            <div class="cn_1_the">
+                                <a href="#" style="text-decoration: underline;">Bài đăng</a>
+                            </div>
+
+                            <div class="cn_1_the">
+                                <a href="#">Thư mục ảnh</a>
+                            </div>
+
+                            <div class="cn_1_the">
+                                <a href="#">Chương trình của tôi</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-10 col-lg-10">
+                        <div class="hang_tim_kiem d-flex">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-2 col-lg-2">
+                                        <div class="o_nhan_vien ">
+                                            <a href="#" style="color: #000;"><b>Bài đăng</b></a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-7 col-lg-7">
+                                        <div class="hang_tim_kiem_o" id="hang_tim_kiem_o_bai_dang">
+                                            <input type="text"  placeholder="Nhập bài đăng">
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-3 col-lg-3">
+                                        <div class="o_the_a_db">
+                                            <div class="chu_tim_kiem" style="margin-right: 20px;">
+                                                <a href="#"><b>Tìm kiếm</b></a>
+                                            </div>
+                    
+                                            <div class="chu_tim_kiem">
+                                                <a href="#"><b>Đặt lại</b></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="o_lua_chon_nv">
+                                            <div class="lua_chon_1">
+                                                <a href="#" class="cn_lc_1 lc_all" style="padding-right: 10px; color: red;">
+                                                    All 22
+                                                </a>
+
+                                                <a href="#" class="cn_lc_1 lc_all" style="padding: 0 10px; border-left: 1.5px solid #000; border-right: 1.5px solid #000;">
+                                                    Xuất bản(10)
+                                                </a>
+
+                                                <a href="#" class="cn_lc_1 lc_all" style="padding-left: 10px;">
+                                                    Bản nháp (12)
+                                                </a>
+                                            </div>
+    
+                                            <div class="lưa_chon_2">
+                                                <a href="#">Xóa bài đăng</a>
+                                                <a href="#">Thêm bài đăng</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="chuc_nang_da_chon">
+                                            <div class="menu_co_con">
+                                                <nav class="navbar navbar-expand-lg navbar-light">
+                                                    <ul class="navbar-nav mr-auto">
+                                                        <li class="nav-item dropdown">
+                                                            <a class="nav-link dropdown-toggle" style="color: #000;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                Tác giả
+                                                            </a>
+                                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                              <a class="dropdown-item" href="#">Angel</a>
+                                                            </div>
+                                                          </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+
+                                            <div class="menu_co_con">
+                                                <nav class="navbar navbar-expand-lg" > 
+                                                    <ul class="navbar-nav mr-auto">
+                                                        <li class="nav-item dropdown">
+                                                            <a class="nav-link dropdown-toggle" style="color: #000;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                Danh mục
+                                                            </a>    
+                                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                              <a class="dropdown-item" href="#">Kiến thức</a>
+                                                              <a class="dropdown-item" href="#">Sự kiện-tin tức</a>
+                                                            </div>
+                                                          </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+
+                                            <div class="menu_co_con" style="margin-top: 8px;">
+                                                Ngày đăng
+                                                <img src="./assets/image/admin/Group 1547.png" alt="">
+                                            </div>
+
+                                            <div class="menu_co_con">
+                                                <nav class="navbar navbar-expand-lg navbar-light">
+                                                    <ul class="navbar-nav mr-auto">
+                                                        <li class="nav-item dropdown">
+                                                            <a class="nav-link dropdown-toggle" style="color: #000;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                Trạng thái
+                                                            </a>
+                                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                              <a class="dropdown-item" href="#">Hoạt động</a>
+                                                              <a class="dropdown-item" href="#">Không hiển thị</a>
+                                                            </div>
+                                                          </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-12 mt-2 mb-4">
+                                        <div class="bang_thong_ke">
+                                            <div class="stt1 text-center ip_check_rieng" style="width: 5%;">
+                                                <input type="checkbox">
+                                                <b>All</b>
+                                            </div>
+
+                                            <div class="stt1 text-center" style="width: 5%;">
+                                                <b>STT</b>
+                                            </div>
+
+                                            <div class="stt1 text-center" style="width: 20%;">
+                                                <b>Nội dung bài viết</b>
+                                            </div>
+
+                                            <div class="stt1 text-center" style="width: 10%;">
+                                                <b>Ảnh</b>
+                                            </div>
+
+                                            <div class="stt1 text-center" style="width: 10%;">
+                                                <b>Tiêu đề</b>
+                                            </div>
+
+                                            <div class="stt1 text-center" style="width: 10%;">
+                                                <b>Danh mục</b>
+                                            </div>
+
+                                            <div class="stt1 text-center" style="width: 10%;">
+                                                <b>Ngày đăng</b>
+                                            </div>
+
+                                            <div class="stt1 text-center" style="width: 10%;">
+                                                <b>Trạng thái</b>
+                                            </div>
+
+                                            <div class="stt1 text-center" style="width: 10%;">
+                                                <b>Tác giả</b>
+                                            </div>
+
+                                            <div class="stt1 text-center" style="width: 10%;">
+                                                <b>Ghi chú</b>
+                                            </div>
+                                        </div>  
+
+                                        <div class="bang_thong_ke">
+                                            <div class="stt text-center ip_check_rieng" style="width: 5%;">
+                                                <input type="checkbox">
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 5%;">
+                                                1
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 20%;">
+                                                Cà phê là một loại đồ uống phổ biến trên toàn thế giới, rất nhiều người mê loại đồ uống này vì sự tỉnh táo....
+                                            </div>
+
+                                            <div class="stt2 text-center" style="width: 10%;">
+                                                <img src="./assets/image/admin/Group 1550.png" alt="" width="50px">
+                                               
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                Caffee và bánh ngọt
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                Kiến thức
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                27/2/2022
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                Hoạt động<br>
+                                                <div class="con_hd">
+                                                    Xuất bản
+                                                </div>
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                Angel
+                                            </div>
+
+                                            <a class="stt text-center" style="width: 10%; color:#000" href="#">
+                                                Cập nhật
+                                            </a>
+                                        </div>
+
+                                        <div class="bang_thong_ke">
+                                            <div class="stt text-center ip_check_rieng" style="width: 5%;">
+                                                <input type="checkbox">
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 5%;">
+                                                2
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 20%;">
+                                                Cà phê là một loại đồ uống phổ biến trên toàn thế giới, rất nhiều người mê loại đồ uống này vì sự tỉnh táo....
+                                            </div>
+
+                                            <div class="stt2 text-center" style="width: 10%;">
+                                                <img src="./assets/image/admin/Group 1550.png" alt="" width="50px">
+                                              
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                Caffee và bánh ngọt
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                Kiến thức
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                27/2/2022
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                Không hiển thị<br>
+                                                <div class="con_hd">
+                                                    Bản nháp
+                                                </div>
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                Angel
+                                            </div>
+
+                                            <a class="stt text-center" style="width: 10%; color:#000" href="#">
+                                                Cập nhật
+                                            </a>
+                                        </div>
+
+                                        <div class="bang_thong_ke">
+                                            <div class="stt text-center ip_check_rieng" style="width: 5%;">
+                                                <input type="checkbox">
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 5%;">
+                                                3
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 20%;">
+                                                Cà phê là một loại đồ uống phổ biến trên toàn thế giới, rất nhiều người mê loại đồ uống này vì sự tỉnh táo....
+                                            </div>
+
+                                            <div class="stt2 text-center" style="width: 10%;">
+                                                <img src="./assets/image/admin/Group 1550.png" alt="" width="50px">
+                                              
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                Caffee và bánh ngọt
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                Kiến thức
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                27/2/2022
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                Không hiển thị<br>
+                                                <div class="con_hd">
+                                                    Xuất bản
+                                                </div>
+                                            </div>
+
+                                            <div class="stt text-center" style="width: 10%;">
+                                                Angel
+                                            </div>
+
+                                            <a class="stt text-center" style="width: 10%; color:#000" href="#">
+                                                Cập nhật
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer_mau">
+            <div class="container">
+                <div class="row">
+                    <div class="hai_huoc">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

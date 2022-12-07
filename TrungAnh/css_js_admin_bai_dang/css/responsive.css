@@ -1,0 +1,309 @@
+@media screen and (max-width: 481px){
+    .logo{
+        margin-right: 0px !important;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .col_tk{
+        padding: 0 15px !important;
+    }
+
+    .nhom{
+        display: block;
+    }
+
+    .khach_hang{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 992px){
+    .the_tk_1{
+        box-shadow: 0px 2px 2px 1px rgb(208, 208, 208);
+        border-radius: 5px;
+    }
+
+    .vd_tk_nt{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .img_tk{
+        max-width: 50%;
+    }
+
+    .img_tk{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_tk img{
+        width: 100%;
+        height: auto;
+    }
+
+    .name_tk{
+        margin-left: 10px;
+    }
+
+    .ul_cha{
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .footer{
+        background-color: #333;
+        color: #fff !important;
+    }
+
+    .lenadesign{
+        display: none;
+    }
+
+    .nut_search{
+        display: none;
+    }
+
+    .the_tk_1{
+        box-shadow: 0px 2px 2px 1px rgb(208, 208, 208);
+        border-radius: 5px;
+    }
+
+    .img_tk{
+        margin: auto;
+    }
+    
+    .img_tk img{
+        width: 200%;
+        height: auto;
+    }
+
+    .name_tk{
+        margin-top: 10px;
+    }
+}
+
+/* -----------------------min to max------------------------- */
+@media screen and (min-width: 575px) and (max-width:767px) {
+    
+}
+
+@media screen and (min-width: 767px) and (max-width:992px) {
+    .name_tk_a{
+        margin-bottom: 8px;
+    }
+
+    .dong1_cot1{
+        display: flex;
+        margin-bottom: 30px;
+        float: left !important;
+    }
+    
+    .dong1_cot1_o2{
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(83, 83, 83);
+        padding-top: 20px;
+    }
+    
+    .dong1_cot1_goi{
+        display: flex;
+        float: left !important;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .logo{
+        margin-right: 0px !important;
+    }
+
+    .dong_menu{
+        font-size: 13px !important;
+    }
+
+}
+
+/* ------------------------min-width------------------------- */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .vd_tk_nt{
+        font-size: 10px;
+    }
+}   
+
+@media screen and (min-width: 992px){
+    .form_lh button{
+        margin-left: 20px;
+    }
+
+    .name_tk_a{
+        margin-top: 5px;
+    }
+
+    .vd_tk_nt{
+        width: auto;
+    }
+
+    .img_tk{
+        max-width: 50%;
+    }
+
+    .img_tk img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .name_tk{
+        margin-left: 10px;
+    }
+
+    .vd_tk_nt{
+        border-radius: 5px;
+        box-shadow: 0px 2px 2px 1px rgb(208, 208, 208);
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .vd_tk_nt{
+        font-size: 12px;
+    }
+}
+
+
+/* --------------------------------------------------------------------------------- */
+.main{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .the_chua{
+    position: relative;
+    width: 100%;
+  }
+   
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+   
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: rgba(45,45,45,.79);
+    background-size: 100%;
+    border-radius: 10px;
+  }
+   
+  .container:hover .overlay {
+    opacity: 1;
+  }
+   
+  .text {
+    width: 80%;
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .chugm{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  /* ------------------------------------------------------------------------------------------------ */
+
+  #the_tt_dv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  } 
+
+  .the_tt_dv{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 576px){
+    .the_tt_dv{
+        max-width: 100%;
+    }
+  } 
+
+  @media screen and (min-width: 576px) and (max-width: 768px){
+    .the_tt_dv{
+        max-width: 540px;
+    }
+  } 
+
+  @media screen and (max-width: 700px){
+    .sp_nt{
+        width: 100%;
+    }
+
+    .chugm{
+        display: block !important;
+    }
+
+    .main{
+        width: 100% !important;
+    }
+  }
+
+  @media screen and (min-width: 700px) and (max-width: 992px){
+    .sp_nt{
+        width: 100%;
+    }
+
+    .main{
+        width: 49% !important;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .sp_nt{
+        width: 50% !important;
+    }
+
+    .main{
+        width: 49% !important;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px){
+    .the_tt_dv{
+        max-width: 720px;
+    }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1200px){
+    .the_tt_dv{
+        max-width: 960px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .the_tt_dv{
+        max-width: 1140px;
+    }
+  }

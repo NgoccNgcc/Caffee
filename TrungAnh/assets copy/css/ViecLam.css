@@ -1,0 +1,27 @@
+.container__form{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.p_sub_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-right: 100px !important;
+}
+
+.div_viec_lam{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.title_viec_lam p {
+    text-align:center;
+    margin-top: 50px;
+}
+.sap_xep_comment{
+    margin-top: -10px;
+}
