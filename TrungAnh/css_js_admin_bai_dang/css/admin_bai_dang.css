@@ -103,6 +103,12 @@ a:hover .chua_a{
 
 }
 
+.img_sp {
+    font-size: 16px;
+}
+.san_pham{
+    margin-top: 20px;
+}
 .cn_1_the:hover a{
     text-decoration: underline;
 }
@@ -125,7 +131,7 @@ a:hover .chua_a{
 
 .o_the_a_db{
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 .o_nhan_vien{
@@ -176,6 +182,10 @@ a:hover .chua_a{
     padding: 5px 0;
 }
 
+.chu_tim_kiem a:hover{
+    color: red;
+}
+
 .o_lua_chon_nv{
     display: flex;
     justify-content: space-between;
@@ -206,16 +216,6 @@ a:hover .chua_a{
     padding-bottom: 5px;
 }
 
-.stt img{
-    border: #000 solid 1px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    padding: 2px;
-}
-
 .bang_thong_ke a:hover{
     color: red !important;
     text-decoration: underline;
@@ -223,8 +223,11 @@ a:hover .chua_a{
 
 .stt{
     font-weight: 600;
+   
 }
-
+.stt a{
+    color: #000;
+}
 .ip_check_rieng input{
     width: auto;
 }

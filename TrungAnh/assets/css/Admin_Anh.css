@@ -95,3 +95,53 @@ outline: 0;
     margin-top: 20px;
     
 }
+
+
+
+
+form.myform input {
+    background: url('./assets/image/admin/Add Image.png') no-repeat 0 58px;
+    border: none;
+    width: 1px;
+    height: 20px;
+    }
+    
+    form.myform input:focus {
+    background-color: transparent;
+    }
+    
+    form.myform div.fileinputs {
+    position: relative;
+    height: 30px;
+    width: 20px;
+    }
+    
+    form.myform input.file {
+    width: 20px;
+    margin: 0;
+    }
+    
+    form.myform input.file.hidden {
+    position: relative;
+    text-align: right;
+    -moz-opacity:0 ;
+    
+    opacity: 0;
+    z-index: 2;
+    }
+    
+    form.myform div.fakefile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    line-height: 90%;
+    }
+    
+    form.example div.fakefile input {
+    margin-bottom: 5px;
+    margin-left: 0;
+    }

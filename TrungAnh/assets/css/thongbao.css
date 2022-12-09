@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+body {
+    position: relative;
+    background: #fff;
+    font-size: 14px;
+}
+
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.col{
+    padding: 0 !important;
+}
+
+.navbar{
+    padding: 0 !important;
+}
+
+a{
+    /* color: #000;*/
+    text-decoration: none;
+}
+
+:hover a{
+   /* color: #000;*/
+}
+
+/* -------------------------Thông báo--------------------------- */
+
+
+.o_chua_mn_tb{
+    border: 1px solid #D9D9D9;
+    margin: 20px 0;
+    height: 100%;
+}
+
+.o_tieu_de_mntb{
+    display: flex;
+    width: 100%;
+    height: 60PX;
+    border: 1px solid #B8B8B8;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+ 
+    align-items: center;
+    
+}
+
+
+.cac_chuc_nag_tt_tdtb{
+    padding-left: 10px;
+   margin-left: 20px;
+}
+
+.icon_tt_tdtb{
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+
+
+
+.cn_td_tb{
+    margin-top: 20px;
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.cn_td_tb a{
+    color: black;
+}
+
+.tt1 a{
+    color: red !important;
+}
+
+.cn_td_tb a:hover{
+    color: red;
+}
+
+.tt1{
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.danh_dau{
+    width: 100%;
+    display: flex;
+    padding: 18px;
+    height: 60PX;
+    justify-content: right;
+    border: 1px solid #B8B8B8;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    
+}
+
+.dgsp{
+     background: rgba(245, 0, 0, 0.1);;
+}
+
+.dgsp.active{
+     background: rgba(217, 217, 217, 0.2);
+}
+.danh_dau p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.danh_dau input{
+    margin-left: 15px;
+}
+
+.danh_gia_ve_sp_1{
+    display: flex;
+    padding: 10px;
+   
+    margin-right: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.danh_gia_ve_sp_2{
+    display: flex;
+    padding: 10px;
+   
+ 
+    margin-bottom: 40px;
+}
+
+.anh_dgvesp{
+    margin-right: 10px;
+}
+
+.ten_sp_va_ip_danh_gia{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.ten_tt_tdtb{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.anh_dgvesp{
+    margin-top: 10px;
+}
+
+.tensp{
+    margin-top: 5px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.chi_tiet_ttsp{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.chi_tiet_ttsp{
+    padding-right: 20px;
+}
+
+.o_ten_dgsp{
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #D9D9D9;
+   
+}
+
+.o_ten_dgsp a:hover{
+color: red;
+}
+
+.o_ten_dgsp a{
+    color: black;
+    }
+
+.ngay_va_gio_dang_sp{
+    display: flex;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+.gio_dang_sp{
+    margin-right: 30px;
+}
+/* ------------------------------------------------------------- */
