@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/blog.css">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.0-web/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.0-web/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <title>Blog</title>
+    <link rel="stylesheet" href="./assets/css/blog.css">
 </head>
 <body>
-    <div class="main">
+    <div class="wrapper">
         <header class="header">
             <div class="header__wrap-logo">
                 <div class="container header__with-logo">
@@ -47,260 +48,322 @@
                 </div>
             </div>
             <div class="header__wrap-nav">
-                <div class="container header__with-nav">
-                    <ul class="header__nav-list">
-                        <li class="header__nav-item">
-                            <a href="index.html" class="header__nav-item-link">Trang chủ</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a href="coffee_place.html" class="header__nav-item-link">Về Coffee Place</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a href="" class="header__nav-item-link">Menu</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a href="blog.html" class="header__nav-item-link">Blog</a>
-                        </li>
-                      <!--
-                          <li class="header__nav-item">
-                            <a href="tuyendung.html" class="header__nav-item-link">Tuyển dụng</a>
-                        </li>
-                      -->
-                    </ul>
-                    <ul class="header__navbar-list">
-                        <li class="header__navbar-item">
-                            <a href="" class="header__navbar-item-link">
-                                <i class="fa-solid fa-bell header__navbar-item-icon"></i>
-                                <p class="header__navbar-item-name">Thông báo</p>
-                            </a>
-                        </li>
-                        <li class="header__navbar-item">
-                            <a href="GioHang_DatHang.html" class="header__navbar-item-link">
-                                <i class="fa-solid fa-basket-shopping header__navbar-item-icon"></i>
-                                <p class="header__navbar-item-name">Giỏ hàng</p>
-                            </a>
-                        </li>
-                        <li class="header__navbar-item">
-                            <a href="" class="header__navbar-item-link">
-                                <i class="fa-solid fa-right-to-bracket header__navbar-item-icon"></i>
-                                <p class="header__navbar-item-name">Đăng nhập</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container">
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarContent"
+                            aria-controls="navbarContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarContent">
+                            <ul class="navbar-nav header__nav-list">
+                                <li class="header__nav-item">
+                                    <a href="index.html" class="header__nav-item-link ps-0">Trang chủ</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="coffee_place.html" class="header__nav-item-link">Về Coffee Place</a>
+                                </li>
+                                <li class="header__nav-item dropdown">
+                                    <a 
+                                        href="#"
+                                        class="dropdown-toggle header__nav-item-link"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Menu
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="coffee.html">Coffee</a></li>
+                                        <li><a class="dropdown-item" href="#">Bánh</a></li>
+                                    </ul>
+                                </li>
+                                <li class="header__nav-item dropdown">
+                                    <a 
+                                        href="#"
+                                        class="dropdown-toggle header__nav-item-link"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="blog.html">Sự kiện/ tin tức</a></li>
+                                        <li><a class="dropdown-item" href="blog.html">Kiến thức</a></li>
+                                    </ul>
+                                </li>
+                                <!--
+                                    <li class="header__nav-item">
+                                    <a href="tuyendung.html" class="header__nav-item-link">Tuyển dụng</a>
+                                </li>
+                                -->
+                            </ul>
+                        </div>
+                        <div class="d-none d-md-block">
+                            <ul class="navbar-nav header__nav-list">
+                                <li class="header__navbar-item">
+                                    <a href="" class="header__navbar-item-link">
+                                        <i class="fa-solid fa-bell header__navbar-item-icon"></i>
+                                        <p class="header__navbar-item-name">Thông báo</p>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="GioHang_DatHang.html" class="header__navbar-item-link">
+                                        <i class="fa-solid fa-basket-shopping header__navbar-item-icon"></i>
+                                        <p class="header__navbar-item-name">Giỏ hàng</p>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item pe-0">
+                                    <a href="" class="header__navbar-item-link">
+                                        <i class="fa-solid fa-right-to-bracket header__navbar-item-icon"></i>
+                                        <p class="header__navbar-item-name">Đăng nhập</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </header>
-        <div class="header__banner">
-            <div class="swiper slide__header__banner">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./assets/image/banner_1.jpg" alt="" class="header__thumg-link">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/image/banner_2.jpg" alt="" class="header__thumg-link">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/image/banner_3.jpg" alt="" class="header__thumg-link">
+        <main>
+            <section class="header__banner">
+                <div class="swiper slide__header__banner">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./assets/image/banner_1.jpg" alt="" class="header__thumg-link">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/image/banner_2.jpg" alt="" class="header__thumg-link">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/image/banner_3.jpg" alt="" class="header__thumg-link">
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="body">
-            <div class="container__wrap-navbar">
+            </section>
+
+            <section class="services">
                 <div class="container">
-                    <ul class="body__navbar-list">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <li class="body__navbar-item">
-                                    <img src="./assets/image/coffer.png" alt="" class="body__navbar-item-icon">
-                                    <div class="body__navbar-item-desc">
-                                        <p class="body__navbar-item-desc-name">
-                                            Chất lượng coffee
-                                        </p>
-                                        <p class="body__navbar-item-desc-name">
-                                            Đạt chuẩn toàn cầu
-                                        </p>
-                                    </div>
-                                </li>
-                            </div>
-                            <div class="col-lg-3">
-                                <li class="body__navbar-item">
-                                    <img src="./assets/image/safe.png" alt="" class="body__navbar-item-icon">
-                                    <div class="body__navbar-item-desc">
-                                        <p class="body__navbar-item-desc-name">
-                                            Thanh toán online tiện lợi
-                                        </p>
-                                        <p class="body__navbar-item-desc-name">
-                                            An toàn tuyệt đối
-                                        </p>
-                                    </div>
-                                </li>
-                            </div>
-                            <div class="col-lg-3">
-                                <li class="body__navbar-item">
-                                    <img src="./assets/image/ship.png" alt="" class="body__navbar-item-icon">
-                                    <div class="body__navbar-item-desc">
-                                        <p class="body__navbar-item-desc-name">
-                                            Giao hàng an toàn
-                                        </p>
-                                        <p class="body__navbar-item-desc-name">
-                                            Nhanh chóng
-                                        </p>
-                                    </div>
-                                </li>
-                            </div>
-                            <div class="col-lg-3">
-                                <li class="body__navbar-item">
-                                    <img src="./assets/image/sale.png" alt="" class="body__navbar-item-icon">
-                                    <div class="body__navbar-item-desc">
-                                        <p class="body__navbar-item-desc-name">
-                                            Mua càng nhiều 
-                                        </p>
-                                        <p class="body__navbar-item-desc-name">
-                                            Khuyễn mãi càng khủng
-                                        </p>
-                                    </div>
-                                </li>
+                    <div class="services__area">
+                        <div class="services__item">
+                            <img src="./assets/image/coffer.png" alt="icon" class="icon">
+                            <div class="content">
+                                <p>Chất lượng coffee</p>
+                                <p>Đạt chuẩn toàn cầu</p>
                             </div>
                         </div>
+                        <div class="services__item">
+                            <img src="./assets/image/safe.png" alt="icon" class="icon">
+                            <div class="content">
+                                <p>Thanh toán online tiện lợi</p>
+                                <p>An toàn tuyệt đối</p>
+                            </div>
+                        </div>
+                        <div class="services__item">
+                            <img src="./assets/image/ship.png" alt="icon" class="icon">
+                            <div class="content">
+                                <p>Giao hàng an toàn</p>
+                                <p>Nhanh chóng</p>
+                            </div>
+                        </div>
+                        <div class="services__item">
+                            <img src="./assets/image/sale.png" alt="icon" class="icon">
+                            <div class="content">
+                                <p>Mua càng nhiều</p>
+                                <p >Khuyễn mãi càng khủng</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="brand-value">
+                <div class="container">
+                    <div class="brand-value__content">
+                        <div class="row brand-value__row">
+                            <div class="col-md-2 col-sm-6">
+                                <div class="item">
+                                    <img src="./assets/image/UX/game-icons_coffee-cup.png" alt="">
+                                    <p>100k+</p>
+                                    <span>Đã bán</span>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6">
+                                <div class="item">
+                                    <img src="./assets/image/UX/healthicons_market-stall.png" alt="">
+                                    <p>10+</p>
+                                    <span>Cửa hàng</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="item">
+                                    <img src="./assets/image/UX/kisspng-espresso-coffee-cup-cafe-ristretto-banner-coffee-5b4b9b6cafa393 1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6">
+                                <div class="item">
+                                    <img src="./assets/image/UX/uiw_setting.png" alt="">
+                                    <p>7</p>
+                                    <span>Quy trình</span>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6">
+                                <div class="item">
+                                    <img src="./assets/image/UX/bi_people-fill.png" alt="">
+                                    <p>100k+</p>
+                                    <span>Khách hàng</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="posts">
+                <div class="container">
+                    <ul class="nav-controls bg_primary btn_border">
+                        <a href="" class="btn_primary">
+                            Sự kiện / Tin tức
+                        </a>
+                        <a href="" class="kienthuc">
+                            Kiến thức
+                        </a>
                     </ul>
-                </div>
-            </div>
-            <div class="container">
-                <div class="container__banner-sub">
-                    <img src="./assets/image/banner_sub.png" alt="" class="banner__sub-thumb">
-                </div>
-                <ul class="nav-controls bg_primary btn_border">
-                    <a href="" class="btn_primary">
-                        Sự kiện / Tin tức
-                    </a>
-                    <a href="" class="kienthuc">
-                        Kiến thức
-                    </a>
-                </ul>
-                <div class="container__news">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="news__item-thumb">
-                                <img src="./assets/image/news_1.png" alt="" class="news__item-thumb-link">
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="product__item-thumb anh1">
-                                        <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
-                                        <p class="product__item-name">Cafe Capucino</p>
-                                        <p class="product__item-desc">
-                                            Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
-                                            đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
-                                            <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
-                                        </p>
-                                    </div>
+                    <div class="container__news">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="news__item-thumb">
+                                    <img src="./assets/image/news_1.png" alt="" class="news__item-thumb-link">
                                 </div>
-                                <div class="col-lg-12">
-                                    <div class="product__item-thumb">
-                                        <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
-                                        <p class="product__item-name">Cafe Capucino</p>
-                                        <p class="product__item-desc">
-                                            Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
-                                            đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
-                                            <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
-                                        </p>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="product__item-thumb anh1">
+                                            <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                            <p class="product__item-name">Cafe Capucino</p>
+                                            <p class="product__item-desc">
+                                                Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                                đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                                <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="product__item-thumb">
+                                            <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                            <p class="product__item-name">Cafe Capucino</p>
+                                            <p class="product__item-desc">
+                                                Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                                đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                                <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="product__item-thumb">
-                                <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
-                                <p class="product__item-name">Cafe Capucino</p>
-                                <p class="product__item-desc">
-                                    Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
-                                    đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
-                                    <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
-                                </p>
+                    
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="product__item-thumb">
+                                    <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                    <p class="product__item-name">Cafe Capucino</p>
+                                    <p class="product__item-desc">
+                                        Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                        đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                        <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="product__item-thumb">
+                                    <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                    <p class="product__item-name">Cafe Capucino</p>
+                                    <p class="product__item-desc">
+                                        Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                        đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                        <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="product__item-thumb">
+                                    <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                    <p class="product__item-name">Cafe Capucino</p>
+                                    <p class="product__item-desc">
+                                        Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                        đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                        <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="product__item-thumb">
+                                    <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                    <p class="product__item-name">Cafe Capucino</p>
+                                    <p class="product__item-desc">
+                                        Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                        đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                        <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="product__item-thumb">
+                                    <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                    <p class="product__item-name">Cafe Capucino</p>
+                                    <p class="product__item-desc">
+                                        Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                        đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                        <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="product__item-thumb">
+                                    <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
+                                    <p class="product__item-name">Cafe Capucino</p>
+                                    <p class="product__item-desc">
+                                        Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
+                                        đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
+                                        <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="product__item-thumb">
-                                <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
-                                <p class="product__item-name">Cafe Capucino</p>
-                                <p class="product__item-desc">
-                                    Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
-                                    đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
-                                    <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
-                                </p>
-                            </div>
+                        <div class="btn-view mt-5">
+                            <a href="" class="btn-view-link">Xem thêm</a>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="product__item-thumb">
-                                <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
-                                <p class="product__item-name">Cafe Capucino</p>
-                                <p class="product__item-desc">
-                                    Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
-                                    đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
-                                    <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="product__item-thumb">
-                                <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
-                                <p class="product__item-name">Cafe Capucino</p>
-                                <p class="product__item-desc">
-                                    Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
-                                    đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
-                                    <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="product__item-thumb">
-                                <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
-                                <p class="product__item-name">Cafe Capucino</p>
-                                <p class="product__item-desc">
-                                    Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
-                                    đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
-                                    <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="product__item-thumb">
-                                <img src="./assets/image/pro_cake_1.png" alt="" class="product__item-thumb-link">
-                                <p class="product__item-name">Cafe Capucino</p>
-                                <p class="product__item-desc">
-                                    Lấy nguồn cảm hứng từ cà phê, con người đã không ngừng sáng tạo ra rất nhiều món ăn, 
-                                    đồ uống độc đáo. Coffee Place giới thiệu đến bạn những món ăn kết hợp cà phê đen có thể làm tại nhà... 
-                                    <a href="BaiVietChiTiet.html" class="product__item-link">Xem thêm</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="btn-view">
-                        <a href="" class="btn-view-link">Xem thêm</a>
-                    </div>
-                </div>
-                <div class="container__form mb-4">
-                    <div class="form__banner">
-                        <img src="./assets/image/form_banner.png" alt="" class="form__banner-thumb">
-                    </div>
-                    <div class="form__wrap-input">
-                        <p class="form__input-title">Đăng ký để nhận<br>thông báo mới nhất</p>
-                        <p class="form__input-title-desc">
-                            Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.
-                        </p>
-                        <input type="text" class="form__input" placeholder="Nhập mail">
-                        <button class="form__input-btn">Gửi ngay</button>
                     </div>
                 </div>
-            </div>
-        </div>
-        <footer class="footer bg_footer ft" >
+            </section>
+
+            <section class="subscribe">
+                <div class="container">
+                    <div class="container__form">
+                        <div class="form__banner">
+                            <img src="./assets/image/form_banner.png" alt="" class="form__banner-thumb">
+                        </div>
+                        <div class="form__wrap-input">
+                            <p class="form__input-title">Đăng ký để nhận<br>thông báo mới nhất</p>
+                            <p class="form__input-title-desc">
+                                Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.
+                            </p>
+                            <input type="text" class="form__input" placeholder="Nhập mail">
+                            <button class="form__input-btn">Gửi ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        <footer class="footer bg_footer">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
@@ -357,9 +420,6 @@
             </div>
         </footer>
     </div>
-
-
-
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/swiper-bundle.min.js"></script>
     <script src="./assets/js/main.js"></script>
