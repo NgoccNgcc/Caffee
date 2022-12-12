@@ -214,21 +214,25 @@ a {
     width: 100%;
 }
 
-.container__wrap-navbar {
+.services {
     background: var(--primary-color);
-    margin: 12px 0;
     padding: 12px 0;
 }
 
-.body__navbar-item {
+.services__area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__item {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.body__navbar-item-desc {
+.services__item .content {
     color: #fff;
-    padding: 0 6px;
+    padding-left: 15px;
 }
 
 .category__thumg {
@@ -343,12 +347,13 @@ a {
 }
 
 .product__item-btn {
-    background: #000;
-    color: #fff;
-    border: none;
-    outline: none;
-    font-size: 14px;
+    background: #271016;
     border-radius: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    border: none;
 }
 
 
@@ -678,7 +683,7 @@ a {
 .container__block::before {
     position: absolute;
     content: "";
-    width: 100%;
+    width: calc(100% - 24px);
     top: calc( 100% - 2px );
     border-bottom: 3px solid var(--primary-color);
 }
@@ -722,8 +727,7 @@ a {
     margin-top: 5px !important;
 }
 .product__item-thumb{
-    margin-left: 30px;
-    margin-top: 50px;
+    margin: 50px 15px 0;
 }
 .category__thumg{
     width: 226px;
@@ -757,6 +761,32 @@ a {
     margin-top: 50px !important;
 }
 
+.main-banner {
+    margin-top: 58px;
+}
+
+.main-banner__img-left {
+    width: 58%;
+}
+
+.main-banner__img-right {
+    width: 36%;
+    margin-left: 27.2px;
+}
+
+.load-more {
+    background: #271016;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    min-height: 28.5px;
+    padding: 5px 0;
+    width: 100%;
+    border: none;
+    margin-top: 40px;
+}
+
 @media (max-width: 576px) {
     .header__wrap-nav .navbar .container {
         padding: 0;
@@ -771,5 +801,20 @@ a {
     .header__nav-item-link {
         padding: 10px 0;
         display: block;
+    }
+
+    .services {
+        background: #fff;
+        padding: 12px 0;
+    }
+    
+    .services__area {
+        display: block;
+    }
+
+    .services__item {
+        background: var(--primary-color);
+        margin-bottom: 10px;
+        padding: 20px;
     }
 }
